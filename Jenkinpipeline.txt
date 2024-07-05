@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('sudhir this is the first pipeline') {
+            steps {
+                echo 'praise the lord'
+            }
+stages {
+        stage('sudhir this is the second pipeline') {
+            steps {
+                echo 'Lord save me'
+            }
+        }
+    }
+}
